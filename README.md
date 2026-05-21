@@ -1,6 +1,10 @@
 # Climate Risk Intelligence for Vietnam's Tourism Sector
 
-A dual-hazard geospatial analysis using image processing and computer vision techniques to assess agricultural drought risk and sea level rise across Vietnam's major tourism destinations.
+## Why This Project?
+
+I wanted to explore how image processing and computer vision techniques could be applied outside traditional photography or object detection problems. Climate risk analysis stood out because it combines geospatial data, temporal trends, and real-world infrastructure challenges.
+
+Vietnam’s tourism industry is highly exposed to environmental change, particularly coastal flooding and drought-related supply chain stress. This project investigates how open climate datasets can be transformed into interpretable risk signals for tourism destinations using computational analysis and visualisation techniques.
 
 Inspired by [Risklayer GmbH](https://www.risklayer.com) and their Hotel Resilient framework for multi-hazard disaster risk management in the hospitality sector.
 
@@ -113,6 +117,31 @@ This project was developed as part of an Image Processing and Computer Vision mo
 ## Status
 
 🟡 **Work in progress** — core analysis pipelines complete, validation against EM-DAT disaster records and composite risk scoring in development.
+
+---
+
+## What I Learned
+
+Through this project I gained hands-on experience with:
+
+- Processing large-scale geospatial climate datasets
+- Working with NetCDF raster formats and coordinate systems
+- Temporal trend extraction using per-pixel regression
+- Spatial masking and connected component analysis
+- Building reproducible scientific analysis pipelines in Python
+- Designing visualisations for non-technical stakeholders
+
+---
+
+## Technical Challenges
+
+Some of the main implementation challenges included:
+
+- Aligning spatial resolutions across heterogeneous climate datasets
+- Mapping raster pixels to geographic coordinates accurately
+- Handling missing values and noisy temporal observations
+- Managing large NetCDF files efficiently in memory
+- Designing visualisations that balance scientific accuracy with readability
 
 ---
 
