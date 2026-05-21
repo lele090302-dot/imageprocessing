@@ -1,4 +1,4 @@
-# Climate Risk Intelligence for Vietnam's Tourism Sector
+# Climate Risk Analysis for Vietnam’s Tourism Sector Using Geospatial Image Processing
 
 ## Why This Project?
 
@@ -13,6 +13,8 @@ Inspired by [Risklayer GmbH](https://www.risklayer.com) and their Hotel Resilien
 ## Overview
 
 This project processes open climate datasets from the Copernicus Climate Change Service to produce city-level risk signals for seven Vietnamese tourism cities: Hanoi, Hue, Da Nang, Hoi An, Nha Trang, Ho Chi Minh City, and Phu Quoc.
+
+<img src="outputs/output_vietnam_map.png" width="500"/>
 
 Two compounding hazards are analysed:
 - **Agricultural drought** (2010–2026): disrupts food/water supply chains for hotels
@@ -31,6 +33,10 @@ The analysis pipeline includes spatial thresholding, per-pixel linear regression
 | Global sea level trend map | 43,000+ coastal stations coloured by rise rate |
 | Vietnam city time series | Sea level anomaly 1990–2050 per tourism city |
 | Vietnam zoom map | City-level trend in mm/year |
+
+<img src="outputs/combined_output_vietnam_timeseries.png" width="700"/>
+
+<img src="outputs/output_drought_seasonal_heatmap.png" width="700"/>
 
 See the [`outputs/`](outputs/) folder for all generated visualisations.
 
