@@ -1,0 +1,32 @@
+# Data files (too large for git — see DATA_SOURCES.md for download instructions)
+data/drought/*.nc
+data/sea_level_historical/*.nc
+data/sea_level_future/*.nc
+*.nc
+
+# Legacy data folders (pre-restructure)
+global_sea_level_1990_2014*/
+Global Mean Sea Level Trend 2015-2050/
+drought_data/
+rdria_m_gdo_20260101_20260321_t/
+
+# GeoTIFF files
+*.tif
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Misc
+Screenshot*.jpg
